@@ -1,0 +1,28 @@
+{
+  "name": "@electerious/eslint",
+  "version": "0.0.1",
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ],
+  "description": "ESLint configuration by Tobias Reich",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "config",
+    "lint",
+    "linter"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/electerious/eslint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electerious/eslint.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-plugin-react": "^7.16.0"
+  }
+}
