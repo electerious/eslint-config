@@ -7,7 +7,7 @@ Shareable ESLint configuration for my personal projects.
 Install this package, ESLint and the necessary plugins.
 
 ```
-npm install --save-dev @electerious/eslint eslint eslint-plugin-react
+npm install --save-dev @electerious/eslint-config eslint eslint-plugin-react
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ Create a file named `.eslintrc.json` with following contents in the root folder 
 
 ```json
 {
-  "extends": "@electerious/eslint"
+  "extends": "@electerious/eslint-config"
 }
 ```
 

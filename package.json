@@ -1,5 +1,5 @@
 {
-  "name": "@electerious/eslint",
+  "name": "@electerious/eslint-config",
   "version": "0.0.1",
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
@@ -13,10 +13,10 @@
     "linter"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/electerious/eslint",
+  "homepage": "https://github.com/electerious/eslint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/electerious/eslint.git"
+    "url": "https://github.com/electerious/eslint-config.git"
   },
   "files": [
     "index.js"
