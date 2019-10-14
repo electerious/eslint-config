@@ -4,7 +4,7 @@
   "authors": [
     "Tobias Reich <tobias@electerious.com>"
   ],
-  "description": "ESLint configuration by Tobias Reich",
+  "description": "ESLint configuration for my personal projects",
   "main": "index.js",
   "keywords": [
     "eslint",
