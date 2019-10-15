@@ -7,7 +7,8 @@ module.exports = {
 		}
 	},
 	plugins: [
-		'react'
+		'react',
+		'react-hooks'
 	],
 	env: {
 		browser: true,
@@ -133,6 +134,8 @@ module.exports = {
 		'react/jsx-curly-brace-presence': [ 2, { props: 'never', children: 'never' }],
 		'react/jsx-pascal-case': [ 2, { allowAllCaps: true }],
 		'react/jsx-tag-spacing': 2,
-		'react/jsx-uses-vars': 2
+		'react/jsx-uses-vars': 2,
+		'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/exhaustive-deps': 'off'
 	}
 }

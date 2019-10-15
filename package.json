@@ -23,6 +23,7 @@
   ],
   "peerDependencies": {
     "eslint": "^6.5.1",
-    "eslint-plugin-react": "^7.16.0"
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2"
   }
 }
