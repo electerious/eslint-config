@@ -135,7 +135,7 @@ module.exports = {
 		'react/jsx-pascal-case': [ 2, { allowAllCaps: true }],
 		'react/jsx-tag-spacing': 2,
 		'react/jsx-uses-vars': 2,
-		'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/rules-of-hooks': 2,
 		'react-hooks/exhaustive-deps': 0
 	}
 }
