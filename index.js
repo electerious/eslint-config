@@ -58,7 +58,7 @@ module.exports = {
 		'comma-spacing': [ 2, { before: false, after: true }],
 		'comma-style': [ 2, 'last' ],
 		'comma-dangle': [ 2, { arrays: 'never', objects: 'never', imports: 'never', exports: 'never', functions: 'never' }],
-		'indent': [ 2, 'tab', { SwitchCase: 1, CallExpression: { arguments: 0 } }],
+		'indent': [ 2, 'tab', { SwitchCase: 1, CallExpression: { arguments: 'first' } }],
 		'key-spacing': [ 2, { beforeColon: false, afterColon: true }],
 		'no-mixed-spaces-and-tabs': 2,
 		'no-multiple-empty-lines': 2,
