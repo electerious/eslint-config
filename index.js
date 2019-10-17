@@ -8,7 +8,8 @@ module.exports = {
 	},
 	plugins: [
 		'react',
-		'react-hooks'
+		'react-hooks',
+		'import'
 	],
 	env: {
 		browser: true,
