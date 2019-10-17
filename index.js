@@ -147,8 +147,6 @@ module.exports = {
 		'import/no-mutable-exports': 2,
 		'import/no-duplicates': 2,
 		'import/newline-after-import': 2,
-		'react-native/no-unused-styles': 2,
-		'react-native/no-raw-text': 2,
-		'react-native/no-single-element-style-arrays': 2
+		'react-native/no-unused-styles': 2
 	}
 }
