@@ -9,7 +9,8 @@ module.exports = {
 	plugins: [
 		'react',
 		'react-hooks',
-		'import'
+		'import',
+		'react-native'
 	],
 	env: {
 		browser: true,
@@ -59,7 +60,7 @@ module.exports = {
 		'comma-spacing': [ 2, { before: false, after: true }],
 		'comma-style': [ 2, 'last' ],
 		'comma-dangle': [ 2, { arrays: 'never', objects: 'never', imports: 'never', exports: 'never', functions: 'never' }],
-		'indent': [ 2, 'tab', { SwitchCase: 1, CallExpression: { arguments: 'first' } }],
+		'indent': [ 2, 'tab', { SwitchCase: 1, CallExpression: { arguments: 'off' } }],
 		'key-spacing': [ 2, { beforeColon: false, afterColon: true }],
 		'no-mixed-spaces-and-tabs': 2,
 		'no-multiple-empty-lines': 2,
@@ -145,6 +146,9 @@ module.exports = {
 		'import/export': 2,
 		'import/no-mutable-exports': 2,
 		'import/no-duplicates': 2,
-		'import/newline-after-import': 2
+		'import/newline-after-import': 2,
+		'react-native/no-unused-styles': 2,
+		'react-native/no-raw-text': 2,
+		'react-native/no-single-element-style-arrays': 2
 	}
 }
