@@ -136,6 +136,14 @@ module.exports = {
 		'react/jsx-tag-spacing': 2,
 		'react/jsx-uses-vars': 2,
 		'react-hooks/rules-of-hooks': 2,
-		'react-hooks/exhaustive-deps': 0
+		'react-hooks/exhaustive-deps': 0,
+		'import/no-unresolved': 2,
+		'import/no-absolute-path': 2,
+		'import/no-self-import': 2,
+		'import/no-useless-path-segments': 2,
+		'import/export': 2,
+		'import/no-mutable-exports': 2,
+		'import/no-duplicates': 2,
+		'import/newline-after-import': 2
 	}
 }
