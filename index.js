@@ -63,6 +63,7 @@ module.exports = {
 		'comma-dangle': [ 2, { arrays: 'never', objects: 'never', imports: 'never', exports: 'never', functions: 'never' }],
 		'indent': [ 2, 'tab', { SwitchCase: 1, CallExpression: { arguments: 'off' } }],
 		'key-spacing': [ 2, { beforeColon: false, afterColon: true }],
+		'eol-last': [ 2, 'never' ],
 		'no-mixed-spaces-and-tabs': 2,
 		'no-multiple-empty-lines': 2,
 		'no-nested-ternary': 2,
