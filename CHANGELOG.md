@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.3.3] - 2020-05-10
+
+### Added
+
+- `no-constructor-return` rule
+- `grouped-accessor-pairs` rule
+- `if-else-if` rule
+- `default-case-last` rule
+
 ## [1.3.2] - 2020-04-10
 
 ### Added
