@@ -131,7 +131,6 @@ module.exports = {
 		'jsx-quotes': [ 2, 'prefer-double' ],
 		'default-case-last': 2,
 		'grouped-accessor-pairs': [ 2, 'getBeforeSet' ],
-		'if-else-if': 2,
 		'react/jsx-closing-bracket-location': 2,
 		'react/jsx-closing-tag-location': 2,
 		'react/jsx-curly-spacing': [ 2, { when: 'always' }],
