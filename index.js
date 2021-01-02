@@ -133,7 +133,7 @@ module.exports = {
 		'grouped-accessor-pairs': [ 2, 'getBeforeSet' ],
 		'react/jsx-closing-bracket-location': 2,
 		'react/jsx-closing-tag-location': 2,
-		'react/jsx-curly-spacing': [ 2, { when: 'always' }],
+		'react/jsx-curly-spacing': [ 2, { when: 'always', children: true }],
 		'react/jsx-equals-spacing': [ 2, 'never' ],
 		'react/jsx-first-prop-new-line': 2,
 		'react/jsx-no-comment-textnodes': 2,
