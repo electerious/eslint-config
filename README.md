@@ -1,5 +1,7 @@
 # ESLint configuration
 
+![Build](https://github.com/electerious/eslint-config/workflows/Build/badge.svg)
+
 Shareable ESLint configuration for my personal projects.
 
 ## Install
