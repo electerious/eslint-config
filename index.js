@@ -1,6 +1,6 @@
 module.exports = {
 	parserOptions: {
-		ecmaVersion: 2018,
+		ecmaVersion: 2021,
 		sourceType: 'module',
 		ecmaFeatures: {
 			jsx: true
@@ -35,6 +35,7 @@ module.exports = {
 		'no-obj-calls': 2,
 		'no-unreachable': 2,
 		'no-dupe-else-if': 2,
+		'no-unsafe-optional-chaining': 2,
 		'use-isnan': 2,
 		'valid-typeof': 2,
 		'no-unexpected-multiline': 2,
