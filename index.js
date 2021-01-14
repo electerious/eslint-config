@@ -21,7 +21,7 @@ module.exports = {
 	},
 	rules: {
 		'no-cond-assign': [ 2, 'always' ],
-		'no-constant-condition2': 2,
+		'no-constant-condition': 2,
 		'no-dupe-args': 2,
 		'no-dupe-keys': 2,
 		'no-duplicate-case': 2,
