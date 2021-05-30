@@ -135,7 +135,6 @@ module.exports = {
 		'object-curly-spacing': [ 2, 'always' ],
 		'operator-linebreak': [ 2, 'after' ],
 		'func-style': 2,
-		'function-call-argument-newline': [ 2, 'consistent' ],
 		'newline-per-chained-call': 2,
 		'new-cap': 2,
 		'no-var': 2,
@@ -188,6 +187,7 @@ module.exports = {
 		'jsx-quotes': [ 2, 'prefer-double' ],
 		'default-case-last': 2,
 		'grouped-accessor-pairs': [ 2, 'getBeforeSet' ],
+		'require-await': 2,
 		'react/jsx-closing-bracket-location': 2,
 		'react/jsx-closing-tag-location': 2,
 		'react/jsx-curly-spacing': [ 2, {
