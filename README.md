@@ -9,7 +9,7 @@ Shareable ESLint configuration for my personal projects.
 Install this package, ESLint and the necessary plugins.
 
 ```
-npm install --save-dev @electerious/eslint-config eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-react-native
+npm install --save-dev @electerious/eslint-config eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-import eslint-plugin-unicorn
 ```
 
 ## Usage
