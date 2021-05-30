@@ -9,8 +9,7 @@ module.exports = {
 	plugins: [
 		'react',
 		'react-hooks',
-		'import',
-		'react-native'
+		'import'
 	],
 	env: {
 		browser: true,
@@ -153,7 +152,6 @@ module.exports = {
 		'import/export': 2,
 		'import/no-mutable-exports': 2,
 		'import/no-duplicates': 2,
-		'import/newline-after-import': 2,
-		'react-native/no-unused-styles': 2
+		'import/newline-after-import': 2
 	}
 }
