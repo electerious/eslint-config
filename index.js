@@ -240,6 +240,10 @@ module.exports = {
 		'unicorn/prefer-default-parameters': 2,
 		'unicorn/prefer-switch': 2,
 		'unicorn/numeric-separators-style': 2,
+		'unicorn/require-array-join-separator': 2,
+		'unicorn/require-number-to-fixed-digits-argument': 2,
+		'unicorn/prefer-prototype-methods': 2,
+		'unicorn/prefer-object-has-own': 2,
 		'unicorn/filename-case': [ 2, {
 			cases: {
 				camelCase: true,
