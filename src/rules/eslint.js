@@ -108,11 +108,11 @@ module.exports = {
 	}],
 	'comma-style': [ 2, 'last' ],
 	'comma-dangle': [ 2, {
-		arrays: 'only-multiline',
-		objects: 'only-multiline',
-		imports: 'only-multiline',
-		exports: 'only-multiline',
-		functions: 'only-multiline',
+		arrays: 'always-multiline',
+		objects: 'always-multiline',
+		imports: 'always-multiline',
+		exports: 'always-multiline',
+		functions: 'always-multiline',
 	}],
 	'indent': [ 2, 'tab', {
 		SwitchCase: 1,
