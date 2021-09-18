@@ -31,7 +31,7 @@
     "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-unicorn": "^35.0.0"
+    "eslint-plugin-unicorn": "^36.0.0"
   },
   "eslintConfig": {
     "root": true,
