@@ -1,6 +1,8 @@
 module.exports = {
 	'unicorn/no-useless-undefined': 2,
 	'unicorn/no-unused-properties': 2,
+	'unicorn/no-invalid-remove-event-listener': 2,
+	'unicorn/no-useless-fallback-in-spread': 2,
 	'unicorn/consistent-destructuring': 2,
 	'unicorn/error-message': 2,
 	'unicorn/new-for-builtins': 2,
