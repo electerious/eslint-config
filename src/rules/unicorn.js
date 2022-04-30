@@ -3,6 +3,7 @@ module.exports = {
 	'unicorn/no-unused-properties': 2,
 	'unicorn/no-invalid-remove-event-listener': 2,
 	'unicorn/no-useless-fallback-in-spread': 2,
+	'unicorn/no-useless-switch-case': 2,
 	'unicorn/consistent-destructuring': 2,
 	'unicorn/error-message': 2,
 	'unicorn/new-for-builtins': 2,
@@ -15,6 +16,7 @@ module.exports = {
 	'unicorn/require-array-join-separator': 2,
 	'unicorn/require-number-to-fixed-digits-argument': 2,
 	'unicorn/prefer-object-has-own': 2,
+	'unicorn/prefer-modern-math-apis': 2,
 	'unicorn/filename-case': [ 2, {
 		cases: {
 			camelCase: true,
