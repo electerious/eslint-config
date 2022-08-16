@@ -50,6 +50,12 @@ module.exports = {
 			val: {
 				value: true,
 			},
+			req: {
+				request: true,
+			},
+			res: {
+				response: true,
+			},
 		},
 	}],
 }
