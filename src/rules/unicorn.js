@@ -17,6 +17,7 @@ module.exports = {
 	'unicorn/require-number-to-fixed-digits-argument': 2,
 	'unicorn/prefer-object-has-own': 2,
 	'unicorn/prefer-modern-math-apis': 2,
+	'unicorn/prefer-logical-operator-over-ternary': 2,
 	'unicorn/filename-case': [ 2, {
 		cases: {
 			camelCase: true,
