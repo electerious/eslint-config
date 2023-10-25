@@ -6,16 +6,8 @@ module.exports = {
 			jsx: true,
 		},
 	},
-	plugins: [
-		'ava',
-		'import',
-		'react',
-		'react-hooks',
-		'unicorn',
-	],
-	extends: [
-		'plugin:ava/recommended',
-	],
+	plugins: [ 'ava', 'import', 'react', 'react-hooks', 'unicorn' ],
+	extends: [ 'plugin:ava/recommended' ],
 	env: {
 		browser: true,
 		node: true,
