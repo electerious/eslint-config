@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "eslint": "eslint --ignore-path .gitignore '**/*.js'",
-    "test": "npm run eslint",
+    "test": "npm run lint",
+    "lint": "npm run eslint",
     "format": "npm run eslint -- --fix"
   },
   "license": "MIT",
@@ -37,5 +38,8 @@
   "eslintConfig": {
     "root": true,
     "extends": "./src/index.js"
+  },
+  "engines": {
+    "node": ">= 18"
   }
 }

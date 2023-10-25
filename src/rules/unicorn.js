@@ -11,18 +11,25 @@ module.exports = {
     },
   ],
   'unicorn/new-for-builtins': 2,
-  'unicorn/no-invalid-remove-event-listener': 2,
   'unicorn/no-unused-properties': 2,
-  'unicorn/no-useless-fallback-in-spread': 2,
   'unicorn/no-useless-switch-case': 2,
   'unicorn/no-useless-undefined': 2,
+  'unicorn/numeric-separators-style': [
+    2,
+    {
+      onlyIfContainsSeparator: true,
+    },
+  ],
+  'unicorn/prefer-array-find': 2,
   'unicorn/prefer-array-flat': 2,
+  'unicorn/prefer-array-some': 2,
+  'unicorn/prefer-at': 2,
   'unicorn/prefer-date-now': 2,
   'unicorn/prefer-default-parameters': 2,
   'unicorn/prefer-includes': 2,
-  'unicorn/prefer-logical-operator-over-ternary': 2,
   'unicorn/prefer-modern-math-apis': 2,
-  'unicorn/prefer-object-has-own': 2,
+  'unicorn/prefer-node-protocol': 2,
+  'unicorn/prefer-set-size': 2,
   'unicorn/prefer-spread': 2,
   'unicorn/prefer-switch': 2,
   'unicorn/prevent-abbreviations': [
@@ -51,11 +58,11 @@ module.exports = {
         opts: {
           options: true,
         },
-        req: {
-          request: true,
+        param: {
+          parameter: true,
         },
-        res: {
-          response: true,
+        params: {
+          parameters: true,
         },
         val: {
           value: true,
@@ -63,6 +70,4 @@ module.exports = {
       },
     },
   ],
-  'unicorn/require-array-join-separator': 2,
-  'unicorn/require-number-to-fixed-digits-argument': 2,
 }
