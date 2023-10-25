@@ -10,10 +10,10 @@ module.exports = {
 	extends: [ 'plugin:ava/recommended' ],
 	env: {
 		browser: true,
-		node: true,
 		commonjs: true,
-		mocha: true,
 		es6: true,
+		mocha: true,
+		node: true,
 	},
 	rules: {
 		...require('./rules/eslint'),
