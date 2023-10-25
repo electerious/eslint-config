@@ -1,6 +1,7 @@
 module.exports = {
   'import/default': 2,
   'import/export': 2,
+  'import/extensions': [2, 'ignorePackages'],
   'import/named': 2,
   'import/newline-after-import': 2,
   'import/no-absolute-path': 2,

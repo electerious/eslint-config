@@ -7,7 +7,7 @@ module.exports = {
     },
   },
   plugins: ['ava', 'import', 'react', 'react-hooks', 'unicorn'],
-  extends: ['plugin:ava/recommended'],
+  extends: ['eslint:recommended', 'plugin:ava/recommended'],
   env: {
     browser: true,
     commonjs: true,
@@ -16,10 +16,10 @@ module.exports = {
     node: true,
   },
   rules: {
-    ...require('./rules/eslint'),
-    ...require('./rules/import'),
-    ...require('./rules/react'),
-    ...require('./rules/reactHooks'),
-    ...require('./rules/unicorn'),
+    ...require('./rules/eslint.js'),
+    ...require('./rules/import.js'),
+    ...require('./rules/react.js'),
+    ...require('./rules/reactHooks.js'),
+    ...require('./rules/unicorn.js'),
   },
 }
