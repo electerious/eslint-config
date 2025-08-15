@@ -1,45 +1,48 @@
 {
   "name": "@electerious/eslint-config",
   "version": "4.1.0",
-  "authors": [
-    "Tobias Reich <tobias@electerious.com>"
-  ],
   "description": "ESLint configuration for my personal projects",
-  "main": "src/index.js",
   "keywords": [
     "eslint",
-    "config",
-    "lint",
-    "linter"
+    "eslintconfig"
   ],
-  "scripts": {
-    "eslint": "eslint --ignore-path .gitignore '**/*.js'",
-    "test": "npm run lint",
-    "lint": "npm run eslint",
-    "format": "npm run eslint -- --fix"
-  },
-  "license": "MIT",
   "homepage": "https://github.com/electerious/eslint-config",
   "repository": {
     "type": "git",
     "url": "https://github.com/electerious/eslint-config.git"
   },
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
   "files": [
     "src"
   ],
-  "dependencies": {
-    "eslint": "^8.52.0",
-    "eslint-plugin-ava": "^14.0.0",
-    "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-unicorn": "^56.0.1"
+  "scripts": {
+    "eslint": "eslint '**/*.js'",
+    "format": "npm run eslint -- --fix && npm run prettier -- --write",
+    "lint": "npm run eslint && npm run prettier -- --check",
+    "prettier": "prettier --ignore-path .gitignore '**/*.{js,json,md,yml}'",
+    "test": "npm run lint"
   },
-  "eslintConfig": {
-    "root": true,
-    "extends": "./src/index.js"
+  "dependencies": {
+    "@eslint/js": "^9.33.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsdoc": "^51.4.1",
+    "eslint-plugin-unicorn": "^59.0.1",
+    "globals": "^16.3.0"
+  },
+  "devDependencies": {
+    "@electerious/prettier-config": "^3.0.0",
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=9.33.0"
   },
   "engines": {
-    "node": ">= 18"
-  }
+    "node": ">=22"
+  },
+  "authors": [
+    "Tobias Reich <tobias@electerious.com>"
+  ]
 }
