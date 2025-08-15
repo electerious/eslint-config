@@ -6,7 +6,7 @@ Shareable ESLint configuration for my personal projects.
 
 ## Install
 
-Install this package and `prettier`. Necessary plugins are already included.
+Install this package and `eslint`. Necessary plugins are already included.
 
 ```bash
 npm install --save-dev eslint @electerious/eslint-config
