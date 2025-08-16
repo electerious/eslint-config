@@ -196,6 +196,7 @@ export default defineConfig([
   },
   {
     rules: {
+      'jsdoc/require-jsdoc': 0,
       'jsdoc/tag-lines': [2, 'any', { startLines: 1 }],
     },
   },
