@@ -112,6 +112,60 @@ export default defineConfig([
     },
   },
   {
+    rules: {
+      'unicorn/prefer-import-meta-properties': 2,
+      'unicorn/consistent-destructuring': 2,
+      'unicorn/no-unused-properties': 2,
+      'unicorn/numeric-separators-style': [
+        2,
+        {
+          onlyIfContainsSeparator: true,
+        },
+      ],
+      'unicorn/prevent-abbreviations': [
+        2,
+        {
+          extendDefaultReplacements: false,
+          replacements: {
+            conf: {
+              config: true,
+            },
+            err: {
+              error: true,
+            },
+            ev: {
+              event: true,
+            },
+            evt: {
+              event: true,
+            },
+            i: {
+              index: true,
+            },
+            opt: {
+              option: true,
+            },
+            opts: {
+              options: true,
+            },
+            param: {
+              parameter: true,
+            },
+            params: {
+              parameters: true,
+            },
+            val: {
+              value: true,
+            },
+          },
+        },
+      ],
+      'unicorn/no-array-callback-reference': 0,
+      'unicorn/no-array-reduce': 0,
+      'unicorn/no-null': 0,
+    },
+  },
+  {
     plugins: {
       import: importPlugin,
     },
