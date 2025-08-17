@@ -170,6 +170,7 @@ export default defineConfig([
       import: importPlugin,
     },
     rules: {
+      'import/no-anonymous-default-export': 0,
       'import/default': 2,
       'import/export': 2,
       'import/extensions': [2, 'ignorePackages'],
