@@ -1,6 +1,6 @@
 {
   "name": "@electerious/eslint-config",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "ESLint configuration for my personal projects",
   "keywords": [
     "eslint",
