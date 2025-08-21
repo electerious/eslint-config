@@ -1,5 +1,5 @@
 import js from '@eslint/js'
-import importPlugin from 'eslint-plugin-import'
+import { flatConfigs as importPluginFlatConfigs } from 'eslint-plugin-import-x'
 import jsdocPlugin from 'eslint-plugin-jsdoc'
 import unicornPlugin from 'eslint-plugin-unicorn'
 import { defineConfig, globalIgnores } from 'eslint/config'
@@ -10,6 +10,7 @@ export default defineConfig([
   js.configs.recommended,
   jsdocPlugin.configs['flat/recommended'],
   unicornPlugin.configs.recommended,
+  importPluginFlatConfigs.recommended,
   {
     languageOptions: {
       sourceType: 'module',
@@ -166,33 +167,34 @@ export default defineConfig([
     },
   },
   {
-    plugins: {
-      import: importPlugin,
-    },
     rules: {
-      'import/no-anonymous-default-export': 0,
-      'import/default': 2,
-      'import/export': 2,
-      'import/extensions': [2, 'ignorePackages'],
-      'import/named': 2,
-      'import/namespace': 2,
-      'import/newline-after-import': 2,
-      'import/no-absolute-path': 2,
-      'import/no-amd': 2,
-      'import/no-commonjs': 2,
-      'import/no-cycle': 1,
-      'import/no-duplicates': 1,
-      'import/no-dynamic-require': 2,
-      'import/no-extraneous-dependencies': 2,
-      'import/no-mutable-exports': 2,
-      'import/no-named-as-default-member': 1,
-      'import/no-named-as-default': 1,
-      'import/no-named-default': 2,
-      'import/no-relative-packages': 2,
-      'import/no-self-import': 2,
-      'import/no-unused-modules': 2,
-      'import/no-useless-path-segments': 2,
-      'import/no-webpack-loader-syntax': 2,
+      'import-x/no-deprecated': 2,
+      'import-x/no-empty-named-blocks': 2,
+      'import-x/no-extraneous-dependencies': 2,
+      'import-x/no-mutable-exports': 2,
+      'import-x/no-named-as-default': 2,
+      'import-x/no-named-as-default-member': 2,
+      'import-x/no-unused-modules': 2,
+      'import-x/no-amd': 2,
+      'import-x/no-commonjs': 2,
+      'import-x/unambiguous': 2,
+      'import-x/no-absolute-path': 2,
+      'import-x/no-dynamic-require': 2,
+      'import-x/no-relative-packages': 2,
+      'import-x/no-restricted-paths': 2,
+      'import-x/no-self-import': 2,
+      'import-x/no-useless-path-segments': 2,
+      'import-x/no-webpack-loader-syntax': 2,
+      'import-x/consistent-type-specifier-style': 2,
+      'import-x/dynamic-import-chunkname': 2,
+      'import-x/extensions': [2, 'ignorePackages'],
+      'import-x/first': 2,
+      'import-x/imports-first': 2,
+      'import-x/newline-after-import': 2,
+      'import-x/no-duplicates': 2,
+      'import-x/no-named-default': 2,
+      // Don't enable this rule as it takes a lot of time to compute
+      // 'import-x/no-cycle': 1,
     },
   },
   {
