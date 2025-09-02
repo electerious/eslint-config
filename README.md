@@ -14,6 +14,8 @@ npm install --save-dev eslint @electerious/eslint-config
 
 ## Usage
 
+### Default
+
 Create a file named `eslint.config.js` with following contents in the root folder of your project:
 
 ```js
@@ -21,3 +23,11 @@ export { default } from '@electerious/eslint-config'
 ```
 
 That's it! You can override the settings by editing the `eslint.config.js` file.
+
+### React
+
+If you're using React, create a file named `eslint.config.js` with following contents in the root folder of your project:
+
+```js
+export { default } from '@electerious/eslint-config/react'
+```
