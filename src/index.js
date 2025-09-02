@@ -1,6 +1,7 @@
 import js from '@eslint/js'
 import { flatConfigs as importPluginFlatConfigs } from 'eslint-plugin-import-x'
 import jsdocPlugin from 'eslint-plugin-jsdoc'
+import reactPlugin from 'eslint-plugin-react'
 import unicornPlugin from 'eslint-plugin-unicorn'
 import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
@@ -11,6 +12,7 @@ export default defineConfig([
   jsdocPlugin.configs['flat/recommended'],
   unicornPlugin.configs.recommended,
   importPluginFlatConfigs.recommended,
+  reactPlugin.configs.flat.recommended,
   {
     languageOptions: {
       sourceType: 'module',
@@ -201,6 +203,13 @@ export default defineConfig([
     rules: {
       'jsdoc/require-jsdoc': 0,
       'jsdoc/tag-lines': [2, 'any', { startLines: 1 }],
+    },
+  },
+  {
+    settings: {
+      react: {
+        version: 'detect',
+      },
     },
   },
 ])
