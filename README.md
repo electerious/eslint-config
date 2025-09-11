@@ -1,6 +1,6 @@
 # ESLint configuration
 
-![Build](https://github.com/electerious/eslint-config/workflows/Build/badge.svg)
+[![Test](https://github.com/electerious/eslint-config/actions/workflows/test.yml/badge.svg)](https://github.com/electerious/eslint-config/actions/workflows/test.yml)
 
 Shareable ESLint configuration for my personal projects.
 
