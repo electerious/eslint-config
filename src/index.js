@@ -201,6 +201,8 @@ export default defineConfig([
     rules: {
       'jsdoc/require-jsdoc': 0,
       'jsdoc/tag-lines': [2, 'any', { startLines: 1 }],
+      'jsdoc/reject-any-type': 0,
+      'jsdoc/reject-function-type': 0,
     },
   },
 ])
