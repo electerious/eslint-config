@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Changed
 
+- Disabled `unicorn/no-process-exit` rule
 - Updated dependencies
 
 ## [5.2.2] - 2026-02-14
