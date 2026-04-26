@@ -6,7 +6,7 @@ import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
 
 export default defineConfig([
-  globalIgnores(['**/dist/*', '**/coverage/*', '**/node_modules/*']),
+  globalIgnores(['**/.agents/*', '**/dist/*', '**/coverage/*', '**/node_modules/*']),
   js.configs.recommended,
   jsdocPlugin.configs['flat/recommended'],
   unicornPlugin.configs.recommended,
