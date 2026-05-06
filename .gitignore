@@ -3,7 +3,8 @@
 **/.AppleDouble
 **/.LSOverride
 **/.idea/
-**/Icon\r\r
+**/Icon?
+**/Icon
 
 # External disk files
 **/.Spotlight-V100
