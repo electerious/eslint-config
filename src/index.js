@@ -128,8 +128,53 @@ export default defineConfig([
         {
           extendDefaultReplacements: false,
           replacements: {
+            arr: {
+              array: true,
+            },
+            attr: {
+              attribute: true,
+            },
+            attrs: {
+              attributes: true,
+            },
+            bool: {
+              boolean: true,
+            },
+            btn: {
+              button: true,
+            },
+            buf: {
+              buffer: true,
+            },
+            cb: {
+              callback: true,
+            },
+            char: {
+              character: true,
+            },
+            cmd: {
+              command: true,
+            },
             conf: {
               config: true,
+            },
+            ctx: {
+              context: true,
+            },
+            curr: {
+              current: true,
+            },
+            dest: {
+              destination: true,
+            },
+            doc: {
+              document: true,
+            },
+            e: {
+              event: true,
+            },
+            el: {
+              element: true,
             },
             err: {
               error: true,
@@ -143,17 +188,53 @@ export default defineConfig([
             i: {
               index: true,
             },
+            idx: {
+              index: true,
+            },
+            len: {
+              length: true,
+            },
+            msg: {
+              message: true,
+            },
+            num: {
+              number: true,
+            },
             opt: {
               option: true,
             },
             opts: {
               options: true,
             },
+            pos: {
+              position: true,
+            },
+            prev: {
+              previous: true,
+            },
+            prop: {
+              property: true,
+            },
             param: {
               parameter: true,
             },
             params: {
               parameters: true,
+            },
+            req: {
+              request: true,
+            },
+            res: {
+              response: true,
+            },
+            sep: {
+              separator: true,
+            },
+            str: {
+              string: true,
+            },
+            tmp: {
+              temporary: true,
             },
             val: {
               value: true,
