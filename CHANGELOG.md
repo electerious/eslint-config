@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - More prevented abbreviations
 
+### Changed
+
+- Updated dependencies (that contain new rules)
+
 ## [5.3.0] - 2026-04-26
 
 ### Changed
