@@ -29,12 +29,11 @@
     "test": "npm run lint && node --test"
   },
   "dependencies": {
-    "@eslint/js": "^9.39.4",
-    "eslint": "^9.39.4",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.6.0",
     "eslint-plugin-import-x": "^4.17.1",
     "eslint-plugin-jsdoc": "^63.0.11",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-unicorn": "^64.0.0",
+    "eslint-plugin-unicorn": "^70.0.0",
     "globals": "^17.7.0"
   },
   "devDependencies": {
@@ -42,7 +41,7 @@
     "prettier": "^3.9.4"
   },
   "peerDependencies": {
-    "eslint": "^9.39.4"
+    "eslint": "^10.6.0"
   },
   "engines": {
     "node": ">=22"

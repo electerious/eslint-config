@@ -123,7 +123,7 @@ export default defineConfig([
           onlyIfContainsSeparator: true,
         },
       ],
-      'unicorn/prevent-abbreviations': [
+      'unicorn/name-replacements': [
         2,
         {
           extendDefaultReplacements: false,
@@ -242,10 +242,21 @@ export default defineConfig([
           },
         },
       ],
+      'unicorn/consistent-boolean-name': 0,
+      'unicorn/default-export-style': 0,
+      'unicorn/max-nested-calls': 0,
       'unicorn/no-array-callback-reference': 0,
       'unicorn/no-array-reduce': 0,
+      'unicorn/no-declarations-before-early-exit': 0,
       'unicorn/no-null': 0,
       'unicorn/no-process-exit': 0,
+      'unicorn/no-this-outside-of-class': 0,
+      'unicorn/no-top-level-assignment-in-function': 0,
+      'unicorn/no-top-level-side-effects': 0,
+      'unicorn/no-unnecessary-global-this': 0,
+      'unicorn/no-unreadable-new-expression': 0,
+      'unicorn/prefer-await': 0,
+      'unicorn/prefer-early-return': 0,
     },
   },
   {
