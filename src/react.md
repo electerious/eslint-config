@@ -5,16 +5,19 @@
 Once `eslint-plugin-react` publishes a version compatible with ESLint 10:
 
 1. Reinstall the plugin:
+
    ```
    npm install eslint-plugin-react@latest
    ```
 
 2. Update `package.json` — add `eslint-plugin-react` to `dependencies`:
+
    ```json
    "eslint-plugin-react": "^X.Y.Z",
    ```
 
 3. Restore `src/react.js` to its original content:
+
    ```js
    import reactPlugin from 'eslint-plugin-react'
    import { defineConfig } from 'eslint/config'
