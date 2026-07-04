@@ -4,6 +4,34 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- Linting for `Array.from(fill)` instead of `Array.from(…, mapFunction)` (`unicorn/no-array-from-fill`)
+- Linting to prefer `split()` with a limit argument (`unicorn/prefer-split-limit`)
+- Linting to prefer HTTPS over HTTP in URLs (`unicorn/prefer-https`)
+- Linting for well-formed comment content such as casing in acronyms (`unicorn/comment-content`)
+- Linting for consistent class member ordering (`unicorn/consistent-class-member-order`)
+- Linting for unnecessary template literal expressions (`unicorn/no-useless-template-literals`)
+- Linting to prefer `Array.from(…, mapFunction)` over `.map()` (`unicorn/prefer-array-from-map`)
+- Linting to prefer `else if` over adjacent unrelated `if` (`unicorn/prefer-else-if`)
+- Linting to simplify unnecessary ternary expressions (`unicorn/prefer-minimal-ternary`)
+- Linting to prefer `Number()` over `Number.parseFloat()` (`unicorn/prefer-number-coercion`)
+- Linting to prefer arrow function properties over methods with a single return (`unicorn/prefer-short-arrow-method`)
+- Linting to prefer unary minus over multiplying by -1 (`unicorn/prefer-unary-minus`)
+- Linting for unnecessary boolean comparisons (`unicorn/no-unnecessary-boolean-comparison`)
+- And more rules from `eslint-plugin-unicorn` that are now active
+
+### Changed
+
+- `eslint` from ^9.39.4 to ^10.6.0
+- `eslint-plugin-unicorn` from ^64.0.0 to ^70.0.0 (adds ~140 rules, 13 now active)
+
+### Removed
+
+- `eslint-plugin-react` — incompatible with ESLint 10; `@electerious/eslint-config/react` no longer includes React rules
+
 ## [5.4.0] - 2026-05-08
 
 ### Added
