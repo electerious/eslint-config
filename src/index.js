@@ -267,7 +267,6 @@ export default defineConfig([
       'import-x/no-mutable-exports': 2,
       'import-x/no-named-as-default': 2,
       'import-x/no-named-as-default-member': 2,
-      'import-x/no-unused-modules': 2,
       'import-x/no-amd': 2,
       'import-x/no-commonjs': 2,
       'import-x/unambiguous': 2,
