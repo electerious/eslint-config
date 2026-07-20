@@ -1,4 +1,5 @@
 import js from '@eslint/js'
+import nodeTestPlugin from 'eslint-node-test'
 import { flatConfigs as importPluginFlatConfigs } from 'eslint-plugin-import-x'
 import jsdocPlugin from 'eslint-plugin-jsdoc'
 import unicornPlugin from 'eslint-plugin-unicorn'
@@ -11,6 +12,7 @@ export default defineConfig([
   jsdocPlugin.configs['flat/recommended'],
   unicornPlugin.configs.recommended,
   importPluginFlatConfigs.recommended,
+  nodeTestPlugin.configs.recommended,
   {
     languageOptions: {
       sourceType: 'module',
