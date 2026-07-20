@@ -2,12 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
 ### Added
 
+- Linting for Node.js built-in test runner (`node:test`) via `eslint-node-test` recommended ruleset
 - Linting for `Array.from(fill)` instead of `Array.from(…, mapFunction)` (`unicorn/no-array-from-fill`)
 - Linting to prefer `split()` with a limit argument (`unicorn/prefer-split-limit`)
 - Linting to prefer HTTPS over HTTP in URLs (`unicorn/prefer-https`)
