@@ -1,7 +1,7 @@
 import js from '@eslint/js'
 import nodeTestPlugin from 'eslint-node-test'
 import { flatConfigs as importPluginFlatConfigs } from 'eslint-plugin-import-x'
-import jsdocPlugin from 'eslint-plugin-jsdoc'
+import { configs as jsdocConfigs } from 'eslint-plugin-jsdoc'
 import unicornPlugin from 'eslint-plugin-unicorn'
 import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
@@ -9,7 +9,7 @@ import globals from 'globals'
 export default defineConfig([
   globalIgnores(['**/.agents/*', '**/dist/*', '**/coverage/*', '**/node_modules/*']),
   js.configs.recommended,
-  jsdocPlugin.configs['flat/recommended'],
+  jsdocConfigs['flat/recommended'],
   unicornPlugin.configs.recommended,
   importPluginFlatConfigs.recommended,
   nodeTestPlugin.configs.recommended,
@@ -297,6 +297,11 @@ export default defineConfig([
       'jsdoc/tag-lines': [2, 'any', { startLines: 1 }],
       'jsdoc/reject-any-type': 0,
       'jsdoc/reject-function-type': 0,
+    },
+  },
+  {
+    rules: {
+      'node-test/no-import-test-files': 0,
     },
   },
 ])
