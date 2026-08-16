@@ -45,7 +45,7 @@
     "eslint": "^10.8.1"
   },
   "engines": {
-    "node": "^22.22.2 || >=24.15.0"
+    "node": ">=24.15.0"
   },
   "authors": [
     "Tobias Reich <tobias@electerious.com>"

@@ -26,6 +26,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Changed
 
+- Require Node.js >=24.15.0, dropping support for Node.js 22
 - `eslint` from ^9.39.4 to ^10.6.0
 - `eslint-plugin-unicorn` from ^64.0.0 to ^70.0.0 (adds ~140 rules, 13 now active)
 
